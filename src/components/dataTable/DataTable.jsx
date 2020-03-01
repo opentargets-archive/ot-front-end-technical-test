@@ -9,12 +9,12 @@ const DataTable  = ({data}) => {
         <table className={style.table}>
 
             <thead className={style.header}>
-            <tr className={style.row}>
-                <td></td>
-                <td>Symbol</td>
-                <td>Gene ID</td>
-                <td>Gene Name</td>
-                <td>Overall Association Score</td>
+            <tr>
+                <th></th>
+                <th>Symbol</th>
+                <th>Gene ID</th>
+                <th>Gene Name</th>
+                <th>Overall Association Score</th>
             </tr>
             </thead>
 

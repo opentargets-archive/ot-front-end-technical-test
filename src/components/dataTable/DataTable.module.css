@@ -1,23 +1,15 @@
-.table{
+.table {
     width: 100%;
     border: 1px solid black;
+    margin-bottom: 12px;
+    border-collapse: collapse;
 }
 
-td{
+td, th {
     border: 1px solid black;
-
-}
-
-
-.header{
-    background: lightgray;
-}
-
-thead td{
-    font-weight: bold;
-}
-
-
-td{
     padding: 10px;
+}
+
+thead th {
+    font-weight: bold;
 }
