@@ -10,8 +10,6 @@ const DataTableWrapper = () => {
     const [dataSize, setDataSize] = React.useState(0);
     const [currentPage, setCurrentPage] = React.useState(0);
 
-
-
     React.useEffect(() => {
         setIsLoading(true);
         fetchData()
@@ -20,9 +18,7 @@ const DataTableWrapper = () => {
                 setDataSize(res.size);
             })
             .catch((e) => {
-
                 console.error(e);
-                //TODO Err handling
             })
             .finally(() => {
                 setIsLoading(false);

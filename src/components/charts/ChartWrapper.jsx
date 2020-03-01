@@ -1,5 +1,6 @@
 import React from 'react';
 import Chart from "./Chart";
+import {CHART_DATASET_LABEL} from "../../constants/constants";
 
 const ChartWrapper = ({ data }) => {
 
@@ -11,7 +12,7 @@ const ChartWrapper = ({ data }) => {
         labels: labels,
         datasets: [
             {
-                label: 'Association Score vs Data Types',
+                label: CHART_DATASET_LABEL,
                 data: values,
                 backgroundColor: 'rgba(52, 137, 202, 1)',
             }
@@ -39,6 +40,6 @@ const ChartWrapper = ({ data }) => {
     };
 
     return <Chart chartData={chartData} />
-}
+};
 
 export default ChartWrapper

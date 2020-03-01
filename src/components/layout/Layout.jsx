@@ -1,5 +1,5 @@
 import React from 'react';
-import DataTableWrapper from "../dataTable/DataTableWrapper";
+import DataTableWrapper from '../dataTable/DataTableWrapper';
 import style from './Layout.module.css'
 
 const Layout = () => {

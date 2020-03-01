@@ -3,9 +3,7 @@ import style from './Row.module.css'
 import ChartWrapper from "../charts/ChartWrapper";
 
 const Row = ({ data }) => {
-    console.log('data', data);
     const [showGraph, setShowGraph] = React.useState(false);
-    const {literature, rna_expression, genetic_association, somatic_mutation, known_drug, animal_model, affected_pathway} = data.association_score.datatypes;
 
     return (<>
         <tr>
@@ -27,8 +25,6 @@ const Row = ({ data }) => {
             :
             null
         }
-
-
     </>);
 };
 

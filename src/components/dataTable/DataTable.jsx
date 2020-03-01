@@ -1,5 +1,4 @@
 import React from 'react';
-import PropTypes from 'prop-types';
 import style from './DataTable.module.css';
 import Row from "../row/Row";
 
@@ -8,9 +7,9 @@ const DataTable  = ({data}) => {
     return (
         <table className={style.table}>
 
-            <thead className={style.header}>
+            <thead>
             <tr>
-                <th></th>
+                <th />
                 <th>Symbol</th>
                 <th>Gene ID</th>
                 <th>Gene Name</th>
@@ -22,7 +21,6 @@ const DataTable  = ({data}) => {
 
             {
                 data.map((elem) => {
-                    console.log(elem);
                     return (
                         <Row key={elem.target.id} data={elem} />
                     )
