@@ -1,0 +1,12 @@
+.expandBtn {
+    text-align: center;
+    font-weight: 600;
+    font-size: 1.5rem;
+    cursor: pointer;
+    color: #3489ca;
+}
+
+.graphContainer {
+    width: 100%;
+    height: 100px;
+}

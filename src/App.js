@@ -1,12 +1,11 @@
 import React from "react";
 import "./App.css";
+import Layout from "./components/layout/Layout";
 
 function App() {
   return (
     <div className="App">
-      <p>
-        Feel free to edit <code>src/App.js</code> and save to reload.
-      </p>
+      <Layout />
     </div>
   );
 }

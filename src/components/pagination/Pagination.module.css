@@ -1,0 +1,14 @@
+.paginationBtn {
+    color: white;
+    background: #3489ca;
+    border: none;
+    border-radius: 4px;
+    padding: 4px 8px;
+    margin: 4px;
+    cursor: pointer;
+}
+
+.paginationBtn:disabled {
+    background: darkgray;
+    cursor: not-allowed;
+}
